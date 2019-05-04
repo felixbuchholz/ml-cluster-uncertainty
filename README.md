@@ -32,5 +32,7 @@ Choosing variables I excluded the boolean indicators ([ – see the original des
 ### Implementation
 
 For the implementation I built on the starter code and what we discussed in class. I consulted the silhouette graphs – but also had the feeling that looking at the clusters would be the most helpful so I tried to organize them on a website to allow for quick quality control and also making my own comments on clusters.
-[See the final code here](https://github.com/felixbuchholz/ml-cluster-uncertainty/blob/master/cluster.ipynb)
-[– and again the website with the clusters](https://felixbuchholz.github.io/ml-cluster-uncertainty/)
+
+##### [See the final code here](https://github.com/felixbuchholz/ml-cluster-uncertainty/blob/master/cluster.ipynb)
+
+##### [– and again the website with the clusters](https://felixbuchholz.github.io/ml-cluster-uncertainty/)
