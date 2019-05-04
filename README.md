@@ -1,8 +1,8 @@
-Felix Buchholz
-Parsons School of Design, Data Visualization
-Machine Learning, Spring 2019
-Instructor Aaron Hill
-Assignment 3
+Felix Buchholz  
+Parsons School of Design, Data Visualization  
+Machine Learning, Spring 2019  
+Instructor Aaron Hill  
+Assignment 3  
 
 #### [See the result here](https://felixbuchholz.github.io/ml-cluster-uncertainty/)
 
