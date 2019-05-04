@@ -8,13 +8,11 @@ Assignment 3
 
 # Clustering artworks by visual qualities of uncertainty
 
+With the open-ended character of this assignment ([see instructions here](https://github.com/visualizedata/ml/tree/master/ML_assignment_3/option_2)), I decided to try and cluster the artworks by the visual qualities of uncertainty they express, because the dataset was created with that intention and is unique in that way. I didn’t want to cluster the works by medium, genre or date since these seemed the more obvious criteria. Early exploration was rewarding, so I mainly experimented with the selection of variables and number of clusters.
 
-With the open-ended character of this assignment ([see instructions here](https://github.com/visualizedata/ml/tree/master/ML_assignment_3/option_2)), I decided to try and cluster the artworks by the visual qualities of uncertainty they express, because the dataset was created with that intention and is most unique in that way. I didn’t want to cluster the works by medium, genre or date, since these seemed the more obvious criteria. Early exploration was rewarding so I mainly experimented with the selection of variables and number of clusters.
+In regards to the number of clusters, I settled between my minimum and maximum. With 20 clusters some visual similarities were exhaustive in some clusters, but others felt too broad. At the upper
 
-In regards to the number of clusters I settled between my own minimum and maximum with 20 clusters some visual similarities were exhaustive in some clusters but others felt too broad. At the upper 
-
-Choosing variables I excluded the boolean indicators ([ – see the original description of the variables here](https://github.com/visualizedata/ml/blob/master/ML_assignment_3/option_2/contents-of-cluster_images.csv)). For example whether an artwork was a map or representative, so the clustering would be restricted to the visual expressions only. 
-
+Choosing variables, I excluded the boolean indicators ( [ – see the original description of the variables here](https://github.com/visualizedata/ml/blob/master/ML_assignment_3/option_2/contents-of-cluster_images.csv)). For example, whether an artwork was a map or representative, so the clustering would be restricted to the visual expressions only.
 
 ### Here’s an overview of the variables I used
 | variable | explanation                                                                                                                                                                                  |
@@ -31,7 +29,7 @@ Choosing variables I excluded the boolean indicators ([ – see the original des
 
 ### Implementation
 
-For the implementation I built on the starter code and what we discussed in class. I consulted the silhouette graphs – but also had the feeling that looking at the clusters would be the most helpful so I tried to organize them on a website to allow for quick quality control and also making my own comments on clusters.
+For the implementation I built on the starter code and what we discussed in class. I consulted the silhouette graphs – but also had the feeling that looking at the clusters would be the most helpful, so I tried to organize them on a website to allow for quick quality control and also making comments on clusters.
 
 ##### [See the final code here](https://github.com/felixbuchholz/ml-cluster-uncertainty/blob/master/cluster.ipynb)
 
